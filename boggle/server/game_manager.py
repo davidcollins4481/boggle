@@ -21,3 +21,6 @@ class GameManager:
     def add_player_to_game(self, player, game):
         game.add_player(player)
         return game
+
+    def remove_game(self, game):
+        self.games.remove(game)
